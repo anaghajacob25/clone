@@ -23,7 +23,7 @@ function Varients() {
            </div>
         </Col>
         <Col  md={4} className='col' >
-            <img src="../src/assets/h1.avif" alt=""  style={{borderRadius:'20px'}}/>
+            <img src="https://images-porsche.imgix.net/-/media/66CD5B15F12E4750B21ACD39C851B030_5F53E33F81D84CC7B6E0524D7F46D707_MA24T4COX0001-macan-4-side?w=1583&q=45&dpr=2&auto=formathttps://images-porsche.imgix.net/-/media/66CD5B15F12E4750B21ACD39C851B030_5F53E33F81D84CC7B6E0524D7F46D707_MA24T4COX0001-macan-4-side?w=1583&q=45&dpr=2&auto=format" alt=""  style={{borderRadius:'20px'}}/>
             <div className='content d-flex align-items-center justify-content-around  '>
             <p className='me-5 mt-2' style={{fontSize:'17px',fontWeight:550}}>The new all-electric Macan.</p>
             <FontAwesomeIcon icon={faArrowRight} style={{color:'white ',fontSize:'20px'}}  className='p-3 mb-2 me-4' />

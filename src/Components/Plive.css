@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.img4{
+    height: 330px;
+    
+}
+
 .icon{
  
    position:'absolute';
@@ -59,10 +64,10 @@
 
 
 
-   @media screen and (max-width: 430px) {
+   @media screen and (max-width: 400px) {
    
     .img1 {
-      width: 330px;
+      width: 280px;
   }
   }
 

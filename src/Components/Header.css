@@ -12,48 +12,27 @@
 .play{
       margin-right: 30px;
 }
-/* .playpause:hover {
-      background-color:#6b6d70; 
-      } */
 
-/* .headButton {
-        background-color: transparent; 
-        transition: background-color 0.3s ease-in-out; 
-      }
-      
-.headButton:hover {
-        background-color: #6b6d70; 
-      } */
-
-/* .headCont{
-      margin-right: 850px;
+.headCont{
+      font-size: 87px;
 }
 
 .head-button{
-      margin-right: 950px;
-      border: 1px solid white;
-      background-color: transparent;
-      width: 20%;
-      transition: background-color 0.3s ease-in-out; 
+      padding: 30px;
+      border: 2px solid white;
+
 }
 
-.head-button:hover {
-      background-color: #6b6d70; 
-    } 
+@media screen and (max-width:400px) {
+      .headCont{
+            font-size: 47px;
+      }
 
-.playpause{
-      background-color: transparent;
-      margin-top: 450px;
+      .head-button{
+            padding: 0px;
+      }
+      
 }
-.playpause:hover{
-      background-color: #6b6d70;
-} */
-
-      /* responsive */
-
-
-
-
 
 
 

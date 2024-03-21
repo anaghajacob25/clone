@@ -36,8 +36,8 @@ function Header() {
   
   <div className='navdetails d-flex justify-content-between align-items-center position-absolute top-50 w-100'>
   <div style={{ marginLeft: '50px' }}>
-    <h1 className='text-light headCont' style={{ fontSize: '87px' }}>Overfeel.</h1>
-    <Button className='head-button p-3 bg-transparent' style={{ border: '2px solid white' }}>Discover the new Taycan</Button>
+    <h1 className='text-light headCont' >Overfeel.</h1>
+    <Button className='head-button  bg-transparent' style={{ border: '2px solid white',padding:'0.1rem 1.6rem',fontSize:'14px' }}>Discover the new Taycan</Button>
   </div>
 
   <div className="playpause position-absolute end-0">

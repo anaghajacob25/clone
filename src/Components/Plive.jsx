@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import Image from 'react-bootstrap/Image';
 
 function Plive() {
   return (
@@ -16,7 +17,8 @@ function Plive() {
       <Row>
         <Col sm={12} md={1}></Col>
         <Col sm={12} md={3} >
-        <img src="../src/assets/p1.jpg" alt="" height={'350px'} className='img1' />
+        
+        <Image src="../src/assets/p1.jpg" fluid height={'350px'} className='mt-5'/>
         </Col>
         <Col sm={12} md={3} className='d-flex ms-5'>
         <img src="../src/assets/p2.jpg" alt="" height={'170px'} className='me-2 img2'/>
@@ -33,8 +35,9 @@ function Plive() {
       <Row>
         <Col sm={12} md={1}></Col>
         <Col sm={12} md={3} className='d-flex mt-2'>
-        <img src="../src/assets/p5.webp" alt="" height={'190px'} className='img4 me-2'/>
-        <img src="../src/assets/p6.jpg" alt="" height={'190px'} width={'100%'} className='img4'/>
+        <Image src="../src/assets/p5.webp"  className='img4 me-2' style={{ maxHeight: '100%', height: '160px', width: '100%' }} />
+        <Image src="../src/assets/p6.webp" className='img4'style={{ maxHeight: '100%', height: '160px', width: '100%' }}/>
+
         </Col>
         <Col sm={12} md={3} className='d-flex ms-5'>
          <video autoPlay muted loop  src="../src/assets/p7.mp4" height={'365px'}  style={{marginTop:'-165px'}} className='pVideo'></video>
