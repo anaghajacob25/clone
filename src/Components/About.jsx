@@ -38,7 +38,7 @@ function About() {
         </Col>
 
         <Col sm={12} md={6} className='m-0 p-0'>
-          <Image src="../src/assets/about.avif"  width={'760px'} className='abtImg'/>
+          <Image src="src/assets/about.avif"  width={'760px'} className='abtImg'/>
         </Col>
       </Row>
     </Container>

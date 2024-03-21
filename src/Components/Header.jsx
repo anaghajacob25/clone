@@ -30,7 +30,7 @@ function Header() {
     <>
    <div className='position-relative '>
    <video autoPlay muted loop id="myVideo" ref={videoRef} style={{ width: '100%', zIndex: 0 }}>
-    <source src="../src/assets/banner.mp4" type="video/mp4" />
+    <source src="src/assets/banner.mp4" type="video/mp4" />
   </video> 
 
   
