@@ -1,0 +1,60 @@
+#myVideo {  
+    width: 100%; 
+    object-fit: cover; 
+    height: 100vh; 
+    }
+ 
+.playpause{
+      margin-right: 60px;
+      margin-top: 300px;
+}
+
+.play{
+      margin-right: 30px;
+}
+/* .playpause:hover {
+      background-color:#6b6d70; 
+      } */
+
+/* .headButton {
+        background-color: transparent; 
+        transition: background-color 0.3s ease-in-out; 
+      }
+      
+.headButton:hover {
+        background-color: #6b6d70; 
+      } */
+
+/* .headCont{
+      margin-right: 850px;
+}
+
+.head-button{
+      margin-right: 950px;
+      border: 1px solid white;
+      background-color: transparent;
+      width: 20%;
+      transition: background-color 0.3s ease-in-out; 
+}
+
+.head-button:hover {
+      background-color: #6b6d70; 
+    } 
+
+.playpause{
+      background-color: transparent;
+      margin-top: 450px;
+}
+.playpause:hover{
+      background-color: #6b6d70;
+} */
+
+      /* responsive */
+
+
+
+
+
+
+
+
