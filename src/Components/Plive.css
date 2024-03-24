@@ -15,31 +15,33 @@
    font-size: 28px;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1300px) {
-    .img1{
-        height: 310px;
-    }
+@media screen  and (max-width: 1300px) {
+   
     .img2{
-      height: 165px;
-      margin-bottom:180px;
+      height: 100px;
+      
     }
 
     .img3{
-        height: 350px;
-        margin-left: 30px;
+        height: 300px;
+        margin-left: 50px;
     }
     .pVideo{
-        height: 340px;
+        height: 270px;
        
     }
     .img4{
-        height: 160px;
+        height: 100px;
     }
     .img5{
-        height: 170px;
-        margin-left: 15px;
-        margin-right: 5px;
+        height: 100px;
+        margin-left: 80px;
+        margin-top: 10px;
     }
+    .imgg{
+        display: none;
+    }
+   
   }
 
   @media screen and (max-width: 880px) {
@@ -71,12 +73,21 @@
   }
   }
 
+  @media screen and (max-width: 340px) {
+   
+    .imgt{
+        display: none;
+    }
+  }
+
+
   
 
 
-  @media screen and (max-width: 371px) {
+  /* @media screen and (max-width: 371px) {
    
     .abtImg {
       width: 230px;
   }
-  }
+     
+  } */

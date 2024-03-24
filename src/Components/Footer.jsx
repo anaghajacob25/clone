@@ -40,7 +40,7 @@ function Footer() {
 
         <Col xs={12} md={3} className='col2 ms-2'>
       <h5 style={{ fontWeight: '600' }} className='mb-2'>Social Media</h5>
-      <p>Get in touch with us via social media.</p>
+      <p style={{fontSize:'15px'}}>Get in touch with us via social media.</p>
       <div className='icons d-flex' style={{ marginTop: '30px' }}>
         <FontAwesomeIcon icon={faFacebookF} style={{ color: "#000000" }} className='li me-3 border border-1 rounded p-3 bg-light' />
         <FontAwesomeIcon icon={faInstagram} style={{ color: "#000000" }} className='li me-3 border border-1 rounded p-3 bg-light' />

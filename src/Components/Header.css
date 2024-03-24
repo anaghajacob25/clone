@@ -1,12 +1,29 @@
-#myVideo {  
-    width: 100%; 
-    object-fit: cover; 
-    height: 100vh; 
+
+*{
+      margin: 0;
+      padding: 0;
+}
+
+.video-bg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
- 
-.playpause{
+
+.navi{
+     top: -2%;
+     width: 100%;
+}
+
+.navcon{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+ .playpause{
       margin-right: 60px;
-      margin-top: 300px;
+      margin-top: 570px;
 }
 
 .play{
@@ -15,25 +32,176 @@
 
 .headCont{
       font-size: 87px;
+      margin-left: 100px;
 }
 
-.head-button{
-      padding: 30px;
+.headButton{
+      font-size: 16px;
+      width: 50%;
+      height: 65px;
+      margin-left: 100px;
       border: 2px solid white;
-
 }
 
-@media screen and (max-width:400px) {
-      .headCont{
-            font-size: 47px;
+.play{
+      bottom: 0;
+      right: 1%;
+      bottom: 1%;
+      width:42px;
+      height: 44px;
+      border-radius:10px;
+      text-align: center;
+      border: 2px solid white;  
+} 
+
+.logoname{
+      height: 130px;
+      width: auto;
+      margin-left: 550px;
+}
+
+.uicon{
+      margin-left: 620px;
+}
+
+.navd{
+      margin-left: 50px;
+}
+
+.icon{
+      font-size: 24px;
+      color: white;
+}
+
+.navcon p{
+      margin-left: 40px;
+      color: white;
+}
+
+@media screen and (max-width:1300px) {
+ 
+      .uicon{
+            margin-left: 300px;
       }
 
-      .head-button{
-            padding: 0px;
+      .playpause{
+            margin-top: 320px;
       }
+
+      .logoname{
+            margin-left: 350px;
+      }
+      
+      
+}
+
+
+@media screen and (max-width:950px) {
+ 
+      .uicon{
+            margin-left: 50px;
+      }
+
+      .playpause{
+            margin-top: 170px;
+      }
+
+      .logoname{
+            margin-left: 180px;
+      }
+      
       
 }
 
 
 
+
+
+
+
+@media screen and (max-width:700px) {
+ 
+      .logoname{
+            display: none;
+      }
+     
+      .headCont{
+            font-size: 47px;
+            margin-left: 10px;
+            
+      }
+
+
+      .headButton{
+            height: 35px;
+            border: 2px solid white;
+            width: 100%;
+            margin-left: 10px;
+      }
+ 
+
+    
+      .navcon p{
+            
+            margin-top: 20px;
+      }
+      
+      .playpause{
+            margin-top: 100px;
+      }
+      
+}
+
+
+@media screen and (max-width:450px) {
+ 
+      .logoname{
+            display: none;
+      }
+     
+      .headCont{
+            font-size: 27px;
+      }
+
+      .headButton{
+            height: 29px;
+            border: 2px solid white;
+            width: 100%;  
+      }
+
+     
+      .play{
+            bottom: 0;
+            right: 1%;
+            bottom: 1%;
+            width:32px;
+            height: 30px;
+            border-radius:5px;
+            text-align: center;
+            border: 2px solid white; 
+            margin-right: -60px; 
+            margin-bottom: 20px;
+      } 
+
+      .icon{
+            font-size: 12px;
+      }
+
+      
+
+      .uicon{
+            margin-left: 100px;
+      } 
+
+      .navcon p{
+            margin-left: 20px;
+      } 
+      
+}
+ 
+@media screen and (max-width:330px) {
+      .playpause{
+            display: none;
+      }
+}
 

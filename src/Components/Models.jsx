@@ -9,7 +9,7 @@ function Models() {
   return (
     <>
     <h1  className='text-center mb-5' style={{fontWeight:550}}>Models</h1>
-    <Container>
+    <Container >
     <Row className='mb-4 mrow' >
       <Col sm={12} md={1}></Col>
       <Col sm={12} md={5} style={{position:'relative'}} className='coll'>
