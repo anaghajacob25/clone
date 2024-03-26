@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-
+import sample from '../assets/h2.avif'
 
 
 
@@ -16,7 +16,7 @@ function Varients() {
      <Container className=' p-4 mt-5'>
       <Row className='d-flex  vrow' style={{marginBottom:'100px'}}>
         <Col  md={4} className='col' >
-            <img src="../src/assets/h2.avif" alt=""  style={{borderRadius:'20px'}}/>
+            <img src={sample} alt=""  style={{borderRadius:'20px'}}/>
             <div className='content d-flex align-items-center justify-content-around '>
             <p className='me-5 mt-2' style={{fontSize:'15px',fontWeight:550}}>Spring time at Porsche. Ready for <br /> the season.</p>
             <FontAwesomeIcon icon={faArrowRight} style={{color:'white ',fontSize:'20px'}}  className='p-3 mb-2 me-4' />

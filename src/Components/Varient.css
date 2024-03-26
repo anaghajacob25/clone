@@ -13,5 +13,5 @@
 .col img{
 height: 300px;
 width: 95%;
+transition: 1s ease;
 }
-
