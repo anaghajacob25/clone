@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faLinkedinIn, faPinterestP, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-
+import flag from '../assets/bflag.png'
 
 function Footer() {
   return (
@@ -14,7 +14,7 @@ function Footer() {
     <div className='p-5 mt-3 ' style={{color:'white',backgroundColor:'black'}} >
         <h4 style={{fontWeight:'600'}}>Current Region / Language</h4>
        <div className='d-flex mt-3'>
-            <img src="../src/assets/bflag.png" alt="" height={'40px'} className='me-1'/> 
+            <img src={flag} alt="" height={'40px'} className='me-1'/> 
             <h6 className='p-2'>Great Britain / English</h6>
             <h6 className='text-decoration-underline p-2 ms-3'>Change</h6>
        </div>

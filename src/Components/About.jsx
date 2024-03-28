@@ -38,7 +38,7 @@ function About() {
         </Col>
 
         <Col sm={12} md={6} className='m-0 p-0'>
-        <Image src="imaged/about.avif" className='img4'style={{ maxHeight: '100%', height: '460px', width: '100%' }}/>
+        <Image src="https://images-porsche.imgix.net/-/media/3ECDD9AEFB684670A26CF40722AB1083_AA8F49015D844ACAB62362C02BE1CDD6_Enhanced-Finder_4-3?w=1173&q=85&auto=format" className='img4'style={{ maxHeight: '100%', height: '460px', width: '100%' }}/>
         </Col>
       </Row>
     </Container>

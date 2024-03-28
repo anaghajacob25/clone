@@ -13,7 +13,7 @@ function Models() {
     <Row className='mb-4 mrow' >
       <Col sm={12} md={1}></Col>
       <Col sm={12} md={5} style={{position:'relative'}} className='coll'>
-        <img src="../src/assets/m1.avif" alt=""  style={{borderRadius:'15px'}}/>
+        <img src="https://images-porsche.imgix.net/-/media/793D8E2DBA74441E976BDF9F39751BC3_9B992E6A294D444EB475BCC11BBBC965_718_Carrange?w=880&q=85&auto=format" alt=""  style={{borderRadius:'15px'}}/>
         <div className='model-content '>
             <h4 className='model'>718</h4>
             <div className='details p-3'>
@@ -27,7 +27,7 @@ function Models() {
         </div>
       </Col>
       <Col sm={12} md={5}  style={{position:'relative'}}  className='coll'>
-        <img src="../src/assets/m2.avif" alt=""  style={{borderRadius:'15px'}}/>
+        <img src="https://images-porsche.imgix.net/-/media/732679710B254798A8B72E015D6783E3_05C275949B6D488AB04CDF08043B23FE_911_Carrange?w=880&q=85&auto=format" alt=""  style={{borderRadius:'15px'}}/>
         <div className='model-content '>
             <h4 className='model'>911</h4>
             <div className='details p-3'>
@@ -47,7 +47,7 @@ function Models() {
     <Row className='mb-4 mrow'>
       <Col sm={12} md={1}></Col>
       <Col sm={12} md={5} style={{position:'relative'}}  className='coll'>
-        <img src="../src/assets/m3.avif" alt=""   style={{borderRadius:'15px'}}/>
+        <img src="https://images-porsche.imgix.net/-/media/A97C759653AA4A05A74F37B976E3B6E8_E376EBCF200043C8863372C731375E70_TA24Q3EOX0004_01-1920?w=880&q=85&auto=format" alt=""   style={{borderRadius:'15px'}}/>
         <div className='model-content '>
             <h4 className='model'>Taycan</h4>
             <div className='details p-3'>
@@ -61,7 +61,7 @@ function Models() {
         </div>
       </Col>
       <Col sm={12} md={5} style={{position:'relative'}}  className='coll'>
-        <img src="../src/assets/m4.avif" alt="" style={{borderRadius:'15px'}}/>
+        <img src="https://images-porsche.imgix.net/-/media/92740B9ED4D3461CB565E1FDE6DBC324_679C9FD653D546B08FD612ED2B6B19ED_CarRange_Panamera__desktop_new?w=880&q=85&auto=format" alt="" style={{borderRadius:'15px'}}/>
         <div className='model-content '>
             <h4 className='model'>Panamera</h4>
             <div className='details  p-3'>
@@ -81,7 +81,7 @@ function Models() {
     <Row className='mb-4 mrow'>
       <Col sm={12} md={1}></Col>
       <Col sm={12} md={5} style={{position:'relative'}}  className='coll'>
-        <img src="../src/assets/m5.avif" alt=""  style={{borderRadius:'15px'}}/>
+        <img src="https://images-porsche.imgix.net/-/media/7222692576E74959AF596EB7D3CE4ABD_6DBACAEC55AB4125933E6A6189AAE282_model-overview-berlin-desktop?w=880&q=85&auto=format" alt=""  style={{borderRadius:'15px'}}/>
         <div className='model-content '>
             <h4 className='model'>Macan</h4>
             <div className='details p-3'>
@@ -95,7 +95,7 @@ function Models() {
         </div>
       </Col>
       <Col sm={12} md={5} style={{position:'relative'}}  className='coll'>
-        <img src="../src/assets/m6.avif" alt=""  style={{borderRadius:'15px'}}/>
+        <img src="https://images-porsche.imgix.net/-/media/30F1725256BD457999C7C3ABB8B5A5D6_27629797CE32469390271EB6C205580E_Cayenne_Carrange?w=880&q=85&auto=format" alt=""  style={{borderRadius:'15px'}}/>
         <div className='model-content '>
             <h4 className='model'>Cayenne</h4>
             <div className='details p-3'>

@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-
+import video from '../assets/banner.mp4'
 
 
 function Header() {
@@ -36,7 +36,7 @@ function Header() {
     <>
        <div className='head position-relative'>
         <video autoPlay muted loop id="myVideo" ref={videoRef} className='video-bg'>
-          <source src="src/assets/banner.mp4" type="video/mp4" />
+          <source src={video} type="video/mp4" />
         </video>
 
         <Navbar expand="lg" className=" navi position-absolute ">
