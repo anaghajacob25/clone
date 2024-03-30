@@ -33,6 +33,19 @@
     margin-right: 300px;
   }
 
+  .gg:hover {
+    background-color: #dededf;
+
+  }
+
+  .hh {
+    transition: transform 0.8s ease;
+  }
+  
+  .hh:hover {
+    transform: scale(1.1); /* Change the scale factor as needed for the desired zoom effect */
+  }
+
   @media screen and (max-width: 880px) {
     .slider{
       margin-right: 15px;

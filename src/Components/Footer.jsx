@@ -7,13 +7,14 @@ import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faLinkedinIn, faPinterestP, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import flag from '../assets/bflag.png'
+import logo from '../assets/plogo.png'
 
 function Footer() {
   return (
     <>
     <div className='p-5 mt-3 ' style={{color:'white',backgroundColor:'black'}} >
         <h4 style={{fontWeight:'600'}}>Current Region / Language</h4>
-       <div className='d-flex mt-3'>
+       <div className='d-flex mt-3 w-100'>
             <img src={flag} alt="" height={'40px'} className='me-1'/> 
             <h6 className='p-2'>Great Britain / English</h6>
             <h6 className='text-decoration-underline p-2 ms-3'>Change</h6>
@@ -94,7 +95,7 @@ function Footer() {
 
  <p>** Important information about the all-electric Porsche models can be found <span className='text-decoration-underline'>here.</span></p>
 
-<p className='text-center'> <img src="../src/assets/plogo.png" alt="" height={'220px'}  /></p>
+<p className='text-center'> <img src={logo} alt="" height={'220px'} width={'auto'} className='plogo'/></p>
      
 </div>
 

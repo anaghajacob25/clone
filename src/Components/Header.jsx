@@ -43,17 +43,17 @@ function Header() {
         <Container fluid className='navcon d-flex align-items-center justify-content-evenly'>
         
          
-          <Button className='bg-transparent' style={{border:'1px solid transparent'}} onClick={handleShow}>
+          <Button className='bg-transparent menubtn' style={{border:'1px solid transparent'}} onClick={handleShow}>
           <p href="#" className='menu d-flex ' >
             <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff", fontSize: '20px' }} className='me-2'/> Menu
           </p>
       </Button>
 
-        <Offcanvas show={show} onHide={handleClose} style={{width:'45%'}}>
+        <Offcanvas show={show} onHide={handleClose} style={{width:'auto'}}>
         <Offcanvas.Header closeButton>
          
         </Offcanvas.Header>
-        <Offcanvas.Body className='d-flex  justify-content-center'>
+        <Offcanvas.Body className='d-flex  justify-content-center menutitle'>
          <ul style={{listStyle:'none'}} className='mt-5'>
           <li style={{fontSize:'24px'}} className='mb-4'>Models  </li>
           <li style={{fontSize:'24px'}} className='mb-4'> Vehicle Purchase </li>
@@ -66,7 +66,7 @@ function Header() {
 
       
 
-         <ul style={{listStyle:'none'}} className='ms-5 mt-5'>
+         <ul style={{listStyle:'none'}} className='ms-5 mt-5 '>
            <li className='mb-4' style={{fontSize:'24px'}}><FontAwesomeIcon icon={faGreaterThan} /></li>
            <li style={{marginBottom:'90px',fontSize:'24px'}}><FontAwesomeIcon icon={faGreaterThan} /></li>
            <li></li>
@@ -77,13 +77,13 @@ function Header() {
            </ul>
 
 
-         <ul style={{listStyle:'none'}} className='ms-5 mt-3'>
-          <li className='mb-3'><img src="../src/assets/mm1.webp" alt="" /></li>
-          <li className='mb-3'><img src="../src/assets/mm2.webp" alt="" /></li>
-          <li className='mb-3'><img src="../src/assets/mm3.webp" alt="" /></li>
-          <li className='mb-3'><img src="../src/assets/mm4.webp" alt="" /></li>
-          <li className='mb-3'><img src="../src/assets/mm5.webp" alt="" /></li>
-          <li className='mb-3'><img src="../src/assets/mm6.webp" alt="" /></li>
+         <ul style={{listStyle:'none'}} className='ms-5 mt-3 menuimg'>
+          <li className='mb-3'><img src="https://nav.porsche.com/00BC524/series-assets/1360/718.webp" alt="" /></li>
+          <li className='mb-3'><img src="https://nav.porsche.com/00BC524/series-assets/1360/911.webp" alt="" /></li>
+          <li className='mb-3'><img src="https://nav.porsche.com/00BC524/series-assets/1360/taycan.webp" alt="" /></li>
+          <li className='mb-3'><img src="https://nav.porsche.com/00BC524/series-assets/1360/panamera.webp" alt="" /></li>
+          <li className='mb-3'><img src="https://nav.porsche.com/00BC524/series-assets/1360/macan.webp" alt="" /></li>
+          <li className='mb-3'><img src="https://nav.porsche.com/00BC524/series-assets/1360/cayenne.webp" alt="" /></li>
 
          </ul>
         </Offcanvas.Body>
@@ -100,7 +100,7 @@ function Header() {
 
         <div className='navdetails d-flex justify-content-between align-items-center position-absolute top-50 w-100'>
           <div className='navd'>
-            <h1 className='text-light headCont'>Overfeel.</h1>
+            <h1 className='text-light headCont'>Choose Boldly.</h1>
             <Button className='headButton bg-transparent p-1' style={{ border: '2px solid white' }}>Discover the new Taycan</Button>
           </div>
 

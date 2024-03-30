@@ -50,10 +50,10 @@ function Shop() {
       <div className='slider d-flex mt-5 '>
      
      <ul className='slider-container' ref={containerRef}>
-        <li >
+        <li className='me-2'>
         <Card style={{ width: '19rem',border:'2px solid transparent' }} className='p-2'>
-      <Card.Img variant="top" src="https://images-porsche.imgix.net/-/media/D8B4191579514CF49127B1703273FB0C_80B612F83C7E481FA790D916386D1A62_PflegesetPepita_4-3?w=387&q=85&auto=format" />
-      <Card.Body>
+      <Card.Img className='hh' variant="top" src="https://images-porsche.imgix.net/-/media/D8B4191579514CF49127B1703273FB0C_80B612F83C7E481FA790D916386D1A62_PflegesetPepita_4-3?w=387&q=85&auto=format" />
+      <Card.Body className='gg'>
         <Card.Title style={{fontWeight:550,fontSize:'18px'}}>Porsche Classic Care Set</Card.Title>
         <Card.Text style={{fontSize:'15px'}}>
         The best care for your Porsche classic is offered by the 17-piece care set in a high-quality storage bag.
@@ -63,10 +63,10 @@ function Shop() {
        </Card>
         </li>
 
-        <li >
+        <li className='me-2'>
         <Card style={{ width: '19rem' ,border:'2px solid transparent'}}>
-    <Card.Img variant="top" src="https://images-porsche.imgix.net/-/media/4B14DA927FCE4367B54552E128BAD3AF_BF57BAEBF68E40B0940EEC2B69D3257D_WAP0504700R75Y?w=387&q=85&auto=format" />     
-     <Card.Body>
+    <Card.Img className='hh' variant="top" src="https://images-porsche.imgix.net/-/media/4B14DA927FCE4367B54552E128BAD3AF_BF57BAEBF68E40B0940EEC2B69D3257D_WAP0504700R75Y?w=387&q=85&auto=format" />     
+     <Card.Body className='gg'>
         <Card.Title style={{fontWeight:550,fontSize:'18px'}}>Porsche Poster Set – 75 years</Card.Title>
         <Card.Text style={{fontSize:'15px'}}>
         Powerful motifs and high-quality printing: the limited-edition poster sets portray various Porsche models.
@@ -77,11 +77,11 @@ function Shop() {
     </Card>
         </li>
 
-        <li>
+        <li className='me-2'>
            
     <Card style={{ width: '19rem',border:'2px solid transparent' }}>
-    <Card.Img variant="top" src="https://images-porsche.imgix.net/-/media/9CF94E152C594832B543F950FF014354_CD4E45B1359449D4B5EDA0C51DA9CC15_008-extended-teaser_4-3_4044709510350_3840x2880?w=387&q=85&auto=format" />
-          <Card.Body>
+    <Card.Img className='hh' variant="top" src="https://images-porsche.imgix.net/-/media/9CF94E152C594832B543F950FF014354_CD4E45B1359449D4B5EDA0C51DA9CC15_008-extended-teaser_4-3_4044709510350_3840x2880?w=387&q=85&auto=format" />
+          <Card.Body className='gg'>
         <Card.Title style={{fontWeight:550,fontSize:'18px'}}>Sunglasses P´8478</Card.Title>
         <Card.Text style={{fontSize:'15px'}}>
         The Porsche Design men's sunglasses with interchangeable lenses are a design classic.
@@ -91,10 +91,10 @@ function Shop() {
     </Card>
         </li>
 
-        <li>
+        <li className='me-2'>
         <Card style={{ width: '19rem',border:'2px solid transparent' }}>
-    <Card.Img variant="top" src="https://images-porsche.imgix.net/-/media/113007A78CEE4DAF9325651A7BEFF0B9_949FD5A2C9B64720BD64DA50CEE91220_WAP671XXX0PESS?w=387&q=85&auto=format" />
-      <Card.Body>
+    <Card.Img className='hh' variant="top" src="https://images-porsche.imgix.net/-/media/113007A78CEE4DAF9325651A7BEFF0B9_949FD5A2C9B64720BD64DA50CEE91220_WAP671XXX0PESS?w=387&q=85&auto=format" />
+      <Card.Body className='gg'>
         <Card.Title style={{fontWeight:550,fontSize:'18px'}}>Crest T-shirt - Essential</Card.Title>
         <Card.Text style={{fontSize:'15px'}}>
         Perfect cut, casual design: high-quality Porsche T-shirt is decorated with a print of the historic Porsche Crest.
@@ -105,10 +105,10 @@ function Shop() {
     </Card>
         </li>
 
-        <li>
+        <li className='me-2'>
         <Card style={{ width: '19rem',border:'2px solid transparent' }}>
-    <Card.Img variant="top" src="https://images-porsche.imgix.net/-/media/F11AF4B5E3394F37A65FEAC2C5A77513_DA338A7E33034772A1E96C4E47FB56DE_008-extended-teaser_4-3_WAP0502020PTHB_3840x2880?w=387&q=85&auto=format" />
-      <Card.Body>
+    <Card.Img className='hh' variant="top" src="https://images-porsche.imgix.net/-/media/F11AF4B5E3394F37A65FEAC2C5A77513_DA338A7E33034772A1E96C4E47FB56DE_008-extended-teaser_4-3_WAP0502020PTHB_3840x2880?w=387&q=85&auto=format" />
+      <Card.Body className='gg'>
         <Card.Title style={{fontWeight:550,fontSize:'18px'}}>XL thermos cup</Card.Title>
         <Card.Text style={{fontSize:'15px'}}>
         High-quality, extra-large Porsche thermal mug for hot and cold drinks.
@@ -120,11 +120,11 @@ function Shop() {
         </li>
 
 
-        <li >
+        <li className='me-2'>
             
     <Card style={{ width: '19rem',border:'2px solid transparent' }}>
-    <Card.Img variant="top" src="https://images-porsche.imgix.net/-/media/38D9AF8AD11F4F2D897B1231043BE1B8_B89A725D96014DFDA60816DD917143F9_008-extended-teaser_4-3_VM22_0690_3840x2880?w=387&q=85&auto=format" />
-      <Card.Body>
+    <Card.Img className='hh' variant="top" src="https://images-porsche.imgix.net/-/media/38D9AF8AD11F4F2D897B1231043BE1B8_B89A725D96014DFDA60816DD917143F9_008-extended-teaser_4-3_VM22_0690_3840x2880?w=387&q=85&auto=format" />
+      <Card.Body className='gg'>
         <Card.Title  style={{fontWeight:550,fontSize:'18px'}}>Porsche Car Cover</Card.Title>
         <Card.Text style={{fontSize:'15px'}}>
         With the custom-fit indoor and outdoor vehicle covers, your Porsche is always well protected.
@@ -136,11 +136,11 @@ function Shop() {
         </li>
 
 
-        <li >
+        <li className='me-2'>
            
     <Card style={{ width: '19rem',border:'2px solid transparent' }}>
-    <Card.Img variant="top" src="https://images-porsche.imgix.net/-/media/9171B9FA059649B1A19FC709DD5FF9BF_D43B1385CFD1460982E2A75DB6B1585A_008-extended-teaser_4-3_4056487038650_3840x2880?w=387&q=85&auto=format" />
-      <Card.Body>
+    <Card.Img className='hh' variant="top" src="https://images-porsche.imgix.net/-/media/9171B9FA059649B1A19FC709DD5FF9BF_D43B1385CFD1460982E2A75DB6B1585A_008-extended-teaser_4-3_4056487038650_3840x2880?w=387&q=85&auto=format" />
+      <Card.Body className='gg'>
         <Card.Title style={{fontWeight:550,fontSize:'18px'}}>Roadster Hardcase 4W Trolley M</Card.Title>
         <Card.Text style={{fontSize:'15px'}}>
         Medium sized expandable designer suitcase made from lightweight plastic.

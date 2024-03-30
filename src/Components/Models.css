@@ -22,12 +22,14 @@
   .coll img{
     height: 670px;
     width: auto;
+
   }
 
   .btn{
     height: 55%;
     width: 80%;
   }
+
 
   
 
@@ -51,5 +53,15 @@
     .details Button{
       width: 80%;
     }
+
+    .model {
+      margin-bottom: 40%; 
+    }
+
+    .details h4{
+      font-size: 18px;
+    }
+
+
 }
 
