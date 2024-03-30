@@ -99,6 +99,10 @@
   
     }
 
+ .menutitle ul li{
+      font-size: 24px;
+    }
+    
   
 
 @media screen and (max-width:1300px) {
@@ -181,6 +185,10 @@
           display: none;
       }
 
+      .menuimg li{
+            display: none;
+      }
+
 }
 
 
@@ -235,6 +243,12 @@
 @media screen and (max-width:330px) {
       .playpause{
             display: none;
+      }
+}
+
+@media screen and (max-width:360px) {
+      .menutitle ul li{
+            font-size: 18px;
       }
 }
 

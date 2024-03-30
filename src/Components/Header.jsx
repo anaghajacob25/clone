@@ -55,25 +55,25 @@ function Header() {
         </Offcanvas.Header>
         <Offcanvas.Body className='d-flex  justify-content-center menutitle'>
          <ul style={{listStyle:'none'}} className='mt-5'>
-          <li style={{fontSize:'24px'}} className='mb-4'>Models  </li>
-          <li style={{fontSize:'24px'}} className='mb-4'> Vehicle Purchase </li>
-          <li style={{fontSize:'24px'}} className='mb-4'>Shop </li>
-          <li style={{fontSize:'24px'}} className='mb-4'>Services </li>
-          <li style={{fontSize:'24px'}} className='mb-4'>Experience </li>
-          <li style={{fontSize:'24px'}} className='mb-4'>Find a Dealer </li>
-          <li style={{fontSize:'24px'}} className='mb-4'>My Porsche </li>
+          <li className='mb-4'>Models  </li>
+          <li  className='mb-4'> Vehicle Purchase </li>
+          <li  className='mb-4'>Shop </li>
+          <li  className='mb-4'>Services </li>
+          <li  className='mb-4'>Experience </li>
+          <li  className='mb-4'>Find a Dealer </li>
+          <li  className='mb-4'>My Porsche </li>
          </ul>
 
       
 
-         <ul style={{listStyle:'none'}} className='ms-5 mt-5 '>
-           <li className='mb-4' style={{fontSize:'24px'}}><FontAwesomeIcon icon={faGreaterThan} /></li>
-           <li style={{marginBottom:'90px',fontSize:'24px'}}><FontAwesomeIcon icon={faGreaterThan} /></li>
+         <ul style={{listStyle:'none'}} className='ms-3 mt-5 menutitle'>
+           <li className='mb-4' ><FontAwesomeIcon icon={faGreaterThan} /></li>
+           <li style={{marginBottom:'90px'}}><FontAwesomeIcon icon={faGreaterThan} /></li>
            <li></li>
-           <li className='mb-4' style={{fontSize:'24px'}}><FontAwesomeIcon icon={faGreaterThan} /></li>
-           <li className='mb-4'  style={{fontSize:'24px'}}><FontAwesomeIcon icon={faGreaterThan} /></li>
-           <li className='mb-4' style={{fontSize:'24px'}}><FontAwesomeIcon icon={faGreaterThan} /></li>
-           <li style={{fontSize:'24px'}}><FontAwesomeIcon icon={faGreaterThan} /></li>
+           <li className='mb-4' ><FontAwesomeIcon icon={faGreaterThan} /></li>
+           <li className='mb-4'  ><FontAwesomeIcon icon={faGreaterThan} /></li>
+           <li className='mb-4' ><FontAwesomeIcon icon={faGreaterThan} /></li>
+           <li ><FontAwesomeIcon icon={faGreaterThan} /></li>
            </ul>
 
 
