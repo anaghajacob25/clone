@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import video from '../assets/banner.mp4'
-
+import hlogo from '../assets/plogo.png'
 
 function Header() {
 
@@ -89,7 +89,7 @@ function Header() {
         </Offcanvas.Body>
       </Offcanvas>
         
-          <img src="../src/assets/plogo.png" alt="" className='logoname'  />
+          <img src={hlogo} alt="" className='logoname'  />
 
           <div className='uicon'>
               <FontAwesomeIcon icon={faUser} style={{ color: "#ffffff", fontSize: '20px' }} className='user'/>
